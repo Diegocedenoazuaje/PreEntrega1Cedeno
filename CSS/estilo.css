@@ -1,0 +1,181 @@
+
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tituloPrincipal {
+    color: whitesmoke;
+}
+
+.ronald {
+    border: whitesmoke 1px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #1F1F1F ;
+    text-align: center;
+    font-size: small;
+}
+
+
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1F1F1F;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline-block;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+body {
+    background-color: #1F1F1F;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: whitesmoke;
+}
+
+.draymond {
+    border: whitesmoke 1px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #1F1F1F ;
+    text-align: center;
+    font-size: small;
+}
+
+.messi {
+    border: whitesmoke 1px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #1F1F1F ;
+    text-align: center;
+    font-size: small;
+}
+
+.gerrit {
+    border: whitesmoke 1px solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #1F1F1F ;
+    text-align: center;
+    font-size: small;
+}
+
+.spotify {
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridHijo {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+.noticiaImagen {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sub {
+    text-decoration: none;
+    padding: 20px; 
+}
+
+
+.map {
+    margin: 5em auto;
+    width: 500px;
+    height: 500px;
+}
+
+.map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+
+}
+
+.tituloHover:hover {
+    color: grey;
+}
+
+.subHover:hover {
+    color: grey;
+}
+
+.logo {
+    width: 150px;
+}
+
+.encabezado {
+    background-color: #1F1F1F;
+}
+
+.menuNav a {
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+
+.menuNav a:hover {
+    color: grey;
+}
+
+.card {
+    background-color: #1F1F1F;
+    color: whitesmoke;
+}
