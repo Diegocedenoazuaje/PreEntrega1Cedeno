@@ -20,17 +20,6 @@ p {
     color: whitesmoke;
 }
 
-.ronald {
-    border: whitesmoke 1px solid;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 15px 5px 15px;
-    background-color: #1F1F1F ;
-    text-align: center;
-    font-size: small;
-}
-
-
-
 .logo {
     width: 200px;
     cursor: pointer;
@@ -68,41 +57,6 @@ main {
 
 label {
     color: whitesmoke;
-}
-
-.draymond {
-    border: whitesmoke 1px solid;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 15px 5px 15px;
-    background-color: #1F1F1F ;
-    text-align: center;
-    font-size: small;
-}
-
-.messi {
-    border: whitesmoke 1px solid;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 15px 5px 15px;
-    background-color: #1F1F1F ;
-    text-align: center;
-    font-size: small;
-}
-
-.gerrit {
-    border: whitesmoke 1px solid;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 15px 5px 15px;
-    background-color: #1F1F1F ;
-    text-align: center;
-    font-size: small;
-}
-
-.spotify {
-    width: 80px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-
 }
 
 .gridPadre {
@@ -178,4 +132,22 @@ label {
 .card {
     background-color: #1F1F1F;
     color: whitesmoke;
+}
+
+
+.btn {
+    background-image: linear-gradient(to right, #7b4397, #dc2430);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.btn:hover {
+    background-color: #0560b2;
+    height: 50px;
+    width: 80px;
 }
