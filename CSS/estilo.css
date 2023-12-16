@@ -2,6 +2,7 @@
 
 h1 {
     color: whitesmoke;
+    text-align: center;
 }
 
 h2 {
@@ -150,4 +151,23 @@ label {
     background-color: #0560b2;
     height: 50px;
     width: 80px;
+}
+
+
+.navbar-toggler {
+    display: flex;
+    background-color: grey;
+}
+
+.card-text:hover {
+    color: grey;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 10px;
 }
